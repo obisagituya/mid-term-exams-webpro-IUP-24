@@ -1,0 +1,36 @@
+/* Ada 3 cara buat desain pake css */
+
+/* 1. Pake tag html-nya */
+body{
+  background-color: #ffffff;
+}
+
+a {
+  background-color: #0090f7;
+  font-size: 16pt;
+  height: 40px;
+  margin: 4px;
+  padding: 16px;
+}
+
+div {
+  height: 100vh;
+}
+
+/* 2. Pake class */
+.option-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4ff21;
+}
+
+/* 3. Pake ID */
+#option-box{
+  display: flex;
+  /* horizontal */
+  justify-content: center; 
+  /* vertical */
+  align-items: center;
+  background-color: #414c54;
+}
